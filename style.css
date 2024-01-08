@@ -11,6 +11,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
 }
@@ -29,6 +33,10 @@ body {
 
 .BR_letter {
     font-weight: bold;
+}
+
+.BR_letter:hover {
+    text-decoration: none;
 }
 
 .leftNav_letter {
@@ -80,6 +88,13 @@ body {
     width: 350px;
     height: 233px;
     border-radius: 3px;
+    opacity: 80%;
+}
+
+.page_2_container > img:hover {
+    opacity: 100%;
+    transform: scale(1.01);
+    transition: all 1ms ease-in-out;
 }
 
 p {
@@ -98,6 +113,16 @@ p {
     width: 350px;
     height: 233px;
     border-radius: 3px;
+    opacity: 70%;
+}
+
+#main {
+    opacity: 100%;
+}
+
+.page_3_container > img:hover {
+    transition: all 1ms ease-in-out;
+    opacity: 100%;
 }
 
 .card {
@@ -125,6 +150,12 @@ p {
     height: 40px;
     font-size: 20px;
     opacity: 80%;
+}
+
+.card > .btn:hover {
+    opacity: 100%;
+    background-color: black;
+    color: white;
 }
 
 .page_4_container > p {
@@ -157,6 +188,11 @@ input:focus {
     color: white;
     padding: 10px;
     width: 150px;
+    opacity: 80%;
+}
+
+.page_4_container > .btn:hover {
+    opacity: 100%;
 }
 
 .page_5 {

@@ -1,0 +1,76 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.leftNav {
+    margin-left: 10px;
+}
+
+.right {
+    display: none;
+}
+
+.mainContainer {
+    margin: 0;
+    object-fit: contain;
+}
+
+.page_1 {
+    margin: 0;
+    justify-content: flex-start;
+    height: 0%;
+}
+
+.page_1 > img {
+    width: 360px;
+    height: 200px;
+}
+
+.page_2_letter, .page_3_letter {
+    margin-left: 20px;
+}
+
+.page_2_container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 20px;
+}
+
+.page_2_container > img {
+    opacity: 100%;
+    width: 320px;
+    height: 210px;
+}
+
+#page_3_p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page_3_container {
+    display: none;
+}
+
+.page_4_letter {
+    margin-left: 20px;
+}
+
+.page_4_container {
+    margin-left: 20px;
+}
+
+.page_4_container > form {
+    margin-right: 20px;
+}
+
+.page_4_container > .btn {
+    width: 94%;
+}
+
+.page_5 {
+    margin: 20px 0;
+}
+
+.page_5 > img{
+    width: 320px;
+    height: 200px;
+}
